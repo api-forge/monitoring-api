@@ -1,0 +1,31 @@
+[user]
+    name = Pupix
+    email = manolea.robert@gmail.com
+[url "https://github"]
+    insteadOf = git://github
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    ui = true
+[help]
+    autocorrect = 1
+[alias]
+    gg = "fetch && status -sb"  # disable this if you find it too slow, and use the below one
+    gst = "status -sb"
+    ga = "add"
+    gaa = "add -A"
+    gcm = "commit -m"
+    gpl = "pull"
+    gps = "push"
+    gll = "log --graph --date=short --pretty=format:'%Cgreen%h %Cblue%cd (%cr) %Cred%an%C(yellow)%d%Creset: %s'"
+    glll = "log --graph --stat --date=short --pretty=format:'%Cgreen%h %Cblue%cd (%cr) %Cred%an%C(yellow)%d%Creset: %s'"
+    gundo = "checkout"
+    gdiff = "diff"
+    greset = "reset HEAD"
+    goops = "reset --hard HEAD"
+    gsh = "stash"
+    gnuke = "branch -D"
+    gbr = "checkout -b"
+    gba = "branch -a"
+    squish = "commit -a --amend -C HEAD"

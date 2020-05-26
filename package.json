@@ -1,0 +1,27 @@
+{
+  "name": "@api-forge/monitoring-api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "7.0.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-security": "1.4.0",
+    "jest": "26.0.1"
+  },
+  "dependencies": {
+    "@api-forge/api-client": "1.0.0"
+  },
+  "homepage": "https://github.com/api-forge/monitoring-api",
+  "author": {
+    "name": "API FORGE",
+    "email": "info@apiforge.it"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "https://github.com/api-forge/monitoring-api",
+  "bugs": "https://github.com/api-forge/monitoring-api/issues"
+}
